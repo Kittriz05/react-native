@@ -23,8 +23,11 @@
 //import libraries to create components
  import React from "react"
  import {Text ,View, StyleSheet} from "react-native";
+import ButtonDemo from "./src/screens/ButtonDemo";
 import CustomComponent from './src/screens/CustomComponent'
+import Example from "./src/screens/Example";
 import FlatDemo from "./src/screens/FlatDemo";
+import Images from "./src/screens/Images";
 
 
  //create a component that return some jsx / simple function
@@ -34,9 +37,12 @@ import FlatDemo from "./src/screens/FlatDemo";
    <View> 
     <Text
     style={styles.textStyle}
-    >MARVEL</Text>
-    <CustomComponent />
-    <FlatDemo />
+    >FUTSAL DATA</Text>
+    {/* <CustomComponent />*/}
+    {/* <FlatDemo />  */}
+    {/* <Example /> */}
+    {/* <Images /> */}
+    <ButtonDemo />
     </View>
   )
  };

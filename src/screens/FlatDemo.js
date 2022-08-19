@@ -13,7 +13,7 @@ export default function FlatDemo() {
 
   return (
    <FlatList 
-   style= {styles.listStyle}
+   style= {styles.itemStyle}
    keyExtractor={(index)=> {  //external key extractor
            return index.key;
 }}
